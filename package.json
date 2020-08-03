@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "storybook": "start-storybook -p 3001"
   },
   "keywords": [],
@@ -12,8 +12,11 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.11.0",
+    "@babel/register": "^7.10.5",
     "@storybook/react": "^5.3.19",
-    "babel-loader": "^8.1.0"
+    "babel-loader": "^8.1.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.0"
   },
   "dependencies": {
     "react": "^16.13.1",
